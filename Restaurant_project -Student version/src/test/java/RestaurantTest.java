@@ -11,7 +11,7 @@ import java.util.List;
 
 class RestaurantTest {
     Restaurant restaurant;
-    //REFACTOR ALL THE REPEATED LINES OF CODE
+  
 
     @BeforeEach
     public void setup(){
@@ -102,4 +102,6 @@ class RestaurantTest {
         assertEquals(expectedAmount, actualAmount);
 
     }
+
+    
 }
